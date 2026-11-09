@@ -1,5 +1,15 @@
 # 수묵화 웹앱 분석 — dew978.github.io/sumukhwa
 
+## 심층 문서
+
+- [실제 먹붓·먹·종이 물성 심층 분석](./DEEP-DIVE-BRUSH-INK-PAPER.md) — 72가닥 붓털, PBD, 털별 먹 고갈, 갈필, 종이 확산, 안료 이동·건조를 역설계 관점으로 분석
+- [증거·신뢰도·Clean-room 경계](./EVIDENCE-AND-CONFIDENCE.md) — 원본이 직접 밝힌 사실, 강한 추론, 미확인 항목을 분리하고 독립 구현 경계를 명시
+- [놀아트 Ink Engine v1 기술 사양](../../knolart/ink-engine-v1-technical-spec.md) — 위 분석을 실제 놀아트 구현 단위로 변환
+- [디지털 수묵·붓·종이 시뮬레이션 참고문헌](../../research/digital-ink-painting-references.md)
+
+> **중요:** 공개 GitHub 소스 저장소는 확인되지 않았다. 따라서 아래 분석은 실제 공개 화면과 서비스가 직접 제공하는 기술 설명을 기반으로 하며, 내부 수식·shader·buffer 형식 등은 확인 사실과 기술적 추론을 구분한다.
+
+
 - 대상: https://dew978.github.io/sumukhwa/
 - 분석일: 2026-11-10
 - 목적: 화면 복제가 아니라 **수묵 표현을 브라우저에서 성립시키는 핵심 모델과 UX를 추출**하여 놀아트에 적용 가능한 독립 설계로 변환
