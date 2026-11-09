@@ -14,6 +14,19 @@
 
 ## 현재 분석
 
-- [수묵화 웹앱 — dew978.github.io/sumukhwa](./services/sumukhwa/README.md)
+### 수묵화 웹앱
+- [수묵화 웹앱 개요 — dew978.github.io/sumukhwa](./services/sumukhwa/README.md)
+- [실제 먹붓·먹·종이 물성 심층 분석](./services/sumukhwa/DEEP-DIVE-BRUSH-INK-PAPER.md)
+- [증거·신뢰도·Clean-room 경계](./services/sumukhwa/EVIDENCE-AND-CONFIDENCE.md)
+
+### 놀아트 적용
 - [놀아트 수묵화 모드 적용 설계](./knolart/sumukhwa-mode-design.md)
+- [Ink Engine v1 기술 사양](./knolart/ink-engine-v1-technical-spec.md)
 - [구현 체크리스트](./knolart/sumukhwa-implementation-checklist.md)
+
+### 연구 자료
+- [디지털 수묵·붓·종이 시뮬레이션 참고문헌](./research/digital-ink-painting-references.md)
+
+## 핵심 원칙
+
+수묵 표현을 단순한 검정 브러시 텍스처나 블러 효과로 다루지 않습니다. **붓털의 변형 → 털별 먹·물 전달 → 종이의 흡수·방향성 확산 → 안료 이동·건조·고착**으로 이어지는 상태 기반 시스템으로 분석하고, 놀아트에서는 학교 태블릿 환경에 맞게 단계적으로 단순화해 독립 구현합니다.
